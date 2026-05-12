@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <style>
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Judul Video */
+        .video-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Container Utama */
+        .video-container {
+            width: 100%;
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Wrapper Video & Iklan */
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            background: #000;
+        }
+
+        video {
+            width: 100%;
+            display: block;
+        }
+
+        /* Area Iklan Atas (Pengganti Center) */
+        .ad-slot-top {
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Tombol Call to Action */
+        .cta-container {
+            padding: 25px 15px;
+        }
+
+        .btn-full-hd {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #e60023; /* Warna lebih mencolok */
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 14px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            animation: pulse 2s infinite;
+        }
+
+        .btn-full-hd:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(230, 0, 35, 0.4);
+        }
+
+        /* Animasi */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 480px) {
+            .video-title { font-size: 1rem; }
+            .btn-full-hd { font-size: 16px; width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="video-title">
+        ⚠️ PoV: When auntie can't wait anymore ⚠️
+    </h1>
+
+    <!-- Iklan Atas -->
+    <div class="ad-slot-top">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'af12a16abd48a191c7909f0db5a32bd5',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script src="https://seenimplieddump.com/af12a16abd48a191c7909f0db5a32bd5/invoke.js"></script>
+    </div>
+
+    <main class="video-container">
+        <div class="video-wrapper">
+            <video autoplay loop playsinline controls poster="https://cdn.aceimg.com/1f0231d97.jpg">
+                <source src="https://cdn2.slicedrive.com/JgV8ZG4o1.mp4" type="video/mp4" />
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+
+        <div class="cta-container">
+            <a href="https://seenimplieddump.com/v08rufrhf?key=e2605deb92284ad0448801991b20019a" class="btn-full-hd">
+                ▶︎ WATCH FULL HD VIDEO
+            </a>
+        </div>
+    </main>
+
+    <!-- Iklan Bawah -->
+    <div style="margin-top: 20px;">
+        <script async="async" data-cfasync="false" src="https://seenimplieddump.com/e1c83111bd1ed19041ac12cea64fd598/invoke.js"></script>
+        <div id="container-e1c83111bd1ed19041ac12cea64fd598"></div>
+    </div>
+
+    <!-- Histats -->
+    <script type="text/javascript">
+        var _Hasync = _Hasync || [];
+        _Hasync.push(['Histats.start', '1,5017797,4,3,170,30,00011111']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function () {
+            var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+            hs.src = "//s10.histats.com/js15_as.js";
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        })();
+    </script>
+</body>
+</html>
